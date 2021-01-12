@@ -1,0 +1,18 @@
+#+TITLE: wad.el
+
+* Description
+
+An opinionated configuration management library based on the the core
+principles of configuration and package management from the fantastic
+DOOM emacs.
+
+* Example
+
+#+BEGIN_SRC elisp
+;; ~/.emacs.d/init.el
+(require 'wad (expand-file-name "wad.el"))
+
+(wad! :core package straight
+      :tools magit)
+#+END_SRC
+
