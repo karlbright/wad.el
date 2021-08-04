@@ -352,7 +352,7 @@
   (let (args)
     (cl-letf (((symbol-function 'wad--load) (lambda (&rest x) (setq args x))))
       (funcall (wad--module-file-loader "foobar") :foo 'bar '(:path "/foo/bar"))
-      (should (equal args '("foobar" "/foo/bar"))))))
+      (should (equal args '("foobar" "/foo/bar" t))))))
 
 (ert-deftest wad--module-packages-map ()
   (let ((was-called-times 0))
