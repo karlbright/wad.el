@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2019-2021 Karl Brightman
 ;; Author: Karl Brightman <git@karlbrig.ht>
-;; Homepage: http://sr.ht/karlbright/wad.el
+;; Homepage: http://github.com/karlbright/wad.el
 ;; Package-Requires: ((emacs "25.0"))
 ;; Version: 0.2.0
 
