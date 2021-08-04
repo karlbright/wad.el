@@ -1,4 +1,4 @@
-;; wad.el --- Bring your own package managers -*- lexical-binding: t; coding: utf-8; -*-
+;;; wad.el --- Bring your own package managers -*- lexical-binding: t; coding: utf-8; -*-
 
 ;; Copyright (C) 2019-2021 Karl Brightman
 ;; Author: Karl Brightman <git@karlbrig.ht>
